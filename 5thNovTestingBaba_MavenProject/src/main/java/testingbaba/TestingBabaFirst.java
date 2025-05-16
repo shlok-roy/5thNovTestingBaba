@@ -11,7 +11,8 @@ public class TestingBabaFirst {
 	@Test
 	public void launchurl()
 	{
-	WebDriverManager.chromedriver().setup();
+	
 	WebDriver driver = new ChromeDriver();
+	driver.get("https://testingbaba.com/old");
 	}
 }
